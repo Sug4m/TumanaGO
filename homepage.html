@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | TumanaGO</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="TumanaGO_logo2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER AND NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="brgytumanalogo-fotor-bg-remover-20260212201259.png" alt="Brgy.Tumana Logo" id="tumanaLogo">
+        </div>
+        <div class="nameOfWebsite">
+            <h3>TumanaGO</h3>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="homepage.html" class="home">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="map.html">Map</a></li>
+        </ul>
+    </nav>
+
+    <!-- SEARCH BAR -->
+    <main class="searchbar">
+        <h4>Magandang Araw, Tumanian!</h4>
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" placeholder="Search..." id="searchInput">
+            <span class="clear-icon" id="clearBtn">✖</span>
+        </div>
+    </main>
+
+    <!-- QUICK ACTIONS -->
+    <article class="quick_actions">
+        <h5>Resident Services</h5>
+        <div class="quick">
+            <div class="btn-container">
+                <a href="emergency.html">
+                    <button class="emergency_btn">
+                        <i class="fa-solid fa-phone-volume"></i><span>Emergency</span>
+                    </button>
+                </a>
+            </div>
+
+            <div class="btn-container">
+                <a href="document.html">
+                    <button class="documents_btn">
+                        <i class="fa-regular fa-file-lines"></i><span>Document</span>
+                    </button>
+                </a>
+            </div>
+
+            <div class="btn-container">
+                <a href="https://www.facebook.com/profile.php?id=61555499006158">
+                    <button class="brgytumana_btn">
+                        <i class="fa-brands fa-square-facebook"></i><span>Brgy.Tumana Page</span>
+                    </button>
+                </a>
+            </div>
+
+            <div class="btn-container">
+                <a href="https://www.facebook.com/MarikinaPIO">
+                    <button class="fbPage_btn">
+                        <i class="fa-brands fa-square-facebook"></i><span>Marikina PIO</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- ANNOUNCEMENT -->
+    <section class="announcement">
+    <div class="timeDate">
+        <h5>RECENT ANNOUNCEMENTS</h5>
+        <p id="dateTime">March 10,2026 | 11:32 AM</p>
+    </div>
+
+    <div class="text">
+        <p class="summary" id="announcementSummary">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+        </p>
+        <p class="details" id="announcementDetails">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+            deserunt mollit anim id est laborum.
+        </p>
+        <button class="toggleBtn" id="toggleAnnouncement">Read More</button>
+    </div>
+</section>
+    
+    <!-- FOOTER-->
+    <footer class="footer">
+        <img src="TumanaGO_logo.png" alt="TumanaGO Logo" class="Logo_footer">
+        <p>2024 TumanaGO - Gabay ng Tumanian.</p>
+        <p class="linkp">Links:</p>
+        <div class="links">
+            <a href="homepage.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="history.html">History</a>
+            <a href="map.html">Map</a>
+            <a href="emergency.html">Emergency</a>
+            <a href="document.html">Document</a>
+            <a href="https://www.facebook.com/profile.php?id=61555499006158">Brgy.Tumana Page</a>
+            <a href="https://www.facebook.com/MarikinaPIO">Marikina PIO</a>
+        </div>
+        <div class="disclaimer">
+            <p>Ang TumanaGO ay isang digital platform na nagbibigay ng gabay at impormasyon sa mga taga Tumana. 
+            <br>Hindi ito isang official government platform.</p>
+        </div>
+        <div class="update">
+            <p>&copy; 2026 | Last Updated: March 10, 2026</p>
+        </div>
+    </footer>
+
+    <script src="homepage.js"></script>
+</body>
+</html>

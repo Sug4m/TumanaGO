@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brgy. Tumana Map | TumanaGO</title>
+    <link rel="stylesheet" href="map.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="TumanaGO_logo2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER AND NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="brgytumanalogo-fotor-bg-remover-20260212201259.png" alt="Brgy.Tumana Logo" id="tumanaLogo">
+        </div>
+        <div class="nameOfWebsite">
+            <h3>TumanaGO</h3>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="map.html" class="map">Map</a></li>
+        </ul>
+    </nav>
+
+    <!-- maps -->
+    <main class="container" id="map-section">
+        <div class="card">
+            <h3>Barangay Tumana Map</h3>
+            
+            <div class="map-layout">
+                <div class="side-panel">
+                    <p class="panel-title">Pumili ng Lokasyon:</p>
+                    <button class="map-btn" onclick="updateMap('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.9161864976227!2d121.09786687540343!3d14.660697675601911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b9b8f725aaf5%3A0x4290307cd9fd645a!2sBarangay%20Tumana%20Hall!5e')">
+                        <i class="fas fa-building"></i> Barangay Hall
+                    </button>
+                    <button class="map-btn" onclick="updateMap('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.044069499875!2d121.1000406754033!3d14.653439875780174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b9bf8999341d%3A0x4de0a1d5f71497e6!2sTumana%20Health%20Center!5e0!3m2!1sen!2sph!4v1771222656895')">
+                        <i class="fas fa-clinic-medical"></i> Health Center
+                    </button>
+                    <button class="map-btn" onclick="updateMap('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.104470725598!2d121.09955667540324!3d14.65001067586444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b9c0a5fce62b%3A0x74e8cc33c912f8e1!2sConcepcion%20Integrated%20School!5e0!3m2!1sen!2sph!4v1771222755961')">
+                        <i class="fas fa-school"></i> Concepcion Integrated School
+                    </button>
+                    <p>Click the view larger map to see the full map and the other locations.</p>
+                </div>
+                <div class="map-view">
+                    <iframe id="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.9161864976227!2d121.09786687540343!3d14.660697675601911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b9b8f725aaf5%3A0x4290307cd9fd645a!2sBarangay%20Tumana%20Hall!5e" title="Brgy.Tumana Map"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <img src="TumanaGO_logo.png" alt="TumanaGO Logo" class="Logo_footer">
+        <p>2024 TumanaGO - Gabay ng Tumanian.</p>
+        <p class="linkp">Links:</p>
+        <div class="links">
+            <a href="homepage.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="history.html">History</a>
+            <a href="map.html">Map</a>
+            <a href="emergency.html">Emergency</a>
+            <a href="document.html">Document</a>
+            <a href="https://www.facebook.com/profile.php?id=61555499006158">Brgy.Tumana Page</a>
+            <a href="https://www.facebook.com/MarikinaPIO">Marikina PIO</a>
+        </div>
+        <div class="disclaimer">
+            <p>Ang TumanaGO ay isang digital platform na nagbibigay ng gabay at impormasyon sa mga taga Tumana. 
+            <br>Hindi ito isang official government platform.</p>
+        </div>
+        <div class="update">
+            <p>&copy; 2026 | Last Updated: March 10,2026</p>
+        </div>
+    </footer>
+    <script src="map.js"></script>
+</body>
+</html>

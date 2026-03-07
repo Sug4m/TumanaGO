@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency | TumanaGO</title>
+    <link rel="stylesheet" href="emergency.css">
+    <link rel="icon" type="image/png" sizes="64x64" href="TumanaGO_logo2.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER AND NAVIGATION -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="brgytumanalogo-fotor-bg-remover-20260212201259.png" alt="Brgy.Tumana Logo" id="tumanaLogo">
+        </div>
+        <div class="nameOfWebsite">
+            <h3>TumanaGO</h3>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="map.html">Map</a></li>
+        </ul>
+    </nav>
+
+    <!-- Small links -->
+    <div class="small_links">
+        <a href="emergency.html" class="emergency">Emergency</a>
+        <p>|</p>
+        <a href="document.html">Document</a>
+        <p>|</p>
+        <a href="https://www.facebook.com/profile.php?id=61555499006158">Brgy.Tumana</a>
+        <p>|</p>
+        <a href="https://www.facebook.com/MarikinaPIO">Marikina PIO</a>
+    </div>
+
+    <!-- EMERGENCY CONTACTS -->
+    <main>
+        <div class="container" id="emergency-section">
+            <div class="header">
+                <h3 class="emergency_hotlines">EMERGENCY HOTLINES</h3>
+                <p>Mabilis ang tawag sa Panahon ng mga sakuna at pangangailangan </p>
+            </div>
+
+            <div class="contacts">
+                <!-- BPSO -->
+                <div class="contact-card" id="bpso-section">
+                    <div class="card-header">
+                        <span>▼</span>
+                    </div>
+                    <div class="card-details">
+                        <p>Ang <strong>Barangay Public Safety Officer (BPSO)</strong> na mas kilala bilang Barangay Tanod, ay nagsisilbing watchmen at katuwang
+                        ng kapulisan sa pagpapanatili ng kaayusan, seguridad, at kapayapaan (peace and order) sa barangay, sa ilalim ng supervision ng Barangay Captain.</p>
+                    </div>
+                    <i class="fa-solid fa-house-flag"></i><h4>B.P.S.O</h4>
+                    <p>Smart ( <b>0969 - 412 - 1434</b> )</p> 
+                    <button class="btn-copy" onclick="copyNumber('09694121434')">Copy</button>
+                    <a href="tel:09694121434">
+                        <input type="button" value="Call">
+                    </a>
+                    <p>BPSO Tumana Base ( <b>8 - 451 - 2818</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('84512818')">Copy</button>
+                    <a href="tel:84512818">
+                        <input type="button" value="Call">
+                    </a>
+                    <p>BPSO Doña Petra Base ( <b>8 - 283 - 4208</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('82834208')">Copy</button>
+                    <a href="tel:82834208">
+                        <input type="button" value="Call">
+                    </a>
+                </div>
+
+                <!-- VAWC -->
+                <div class="contact-card" id="vawc-section">
+                    <div class="card-header">
+                        <span>▼</span>
+                    </div>
+                    <div class="card-details">
+                        <p>Ang <strong>Violence Against Women and Children (VAWC)</strong> desk sa barangay ay isang takdang lugar sa barangay hall na naglalayong
+                        tumanggap, magdokumento, at umaksyon sa mga ulat ng karahasan laban sa kababaihan at sa mga bata, alinsunod sa R.A 9262.</p>
+                    </div>
+                    <i class="fa-solid fa-house-chimney-user"></i><h4>VAWC</h4>
+                    <p>Smart ( <b>0910 - 556 - 5103</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('09105565103')">Copy</button>
+                    <a href="tel:09105565103">
+                        <input type="button" value="Call">
+                    </a>
+                    <p>Globe ( <b>0993 - 678 - 0256</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('09936780256')">Copy</button>
+                    <a href="tel:09936780256">
+                        <input type="button" value="Call">
+                    </a>
+                </div>
+
+                <!-- BERT -->
+                <div class="contact-card" id="bert-section">
+                    <div class="card-header">
+                        <span>▼</span>
+                    </div>
+                    <div class="card-details">
+                        <p>Ang <strong>Barangay Emergency Response Team (BERT)</strong> ay isang grupo sa barangay na nakatalaga para mag-bigay ng paunang tulong
+                        o lunas sa mga residente tuwing may sakuna , aksidente, o medikal  na emergency.</p>
+                    </div>
+                    <i class="fa-solid fa-person-military-pointing"></i></i><h4>BERT</h4>
+                    <p>Smart ( <b>0951 - 002 - 8914</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('09510028914')">Copy</button>
+                    <a href="tel:09510028914">
+                        <input type="button" value="Call">
+                    </a>
+                </div>
+
+                <!-- BACC -->
+                <div class="contact-card" id="bacc-section">
+                    <div class="card-header">
+                        <span>▼</span>
+                    </div>
+                    <div class="card-details">
+                        <p>Ang <strong>Barangay Action Community Coordinators (BACC)</strong> ay isang opisyal o boluntaryo na nag uugnay ng mga serbisyo ng
+                        barangay sa komunidad. Tungkulin nilang mag organisa ng mga programa, makipag ugnayan sa mga volunteer at mamahala ng mga pagpupulong</p>
+                    </div>
+                    <i class="fa-solid fa-hand-holding-hand"></i></i><h4>BACC</h4>
+                    <p>Dito Sim ( <b>0993 - 678  - 0256</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('09936780256')">Copy</button>
+                    <a href="tel:09936780256">
+                        <input type="button" value="Call">
+                    </a>
+                    <p>Smart ( <b>0910 - 556 - 6103</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('09105566103')">Copy</button>
+                    <a href="tel:09105566103">
+                        <input type="button" value="Call">
+                    </a>
+                </div>
+
+                <!-- Marikina City Police -->
+                <div class="contact-card" id="mcp-section">
+                    <div class="card-header">
+                        <span>▼</span>
+                    </div>
+                    <div class="card-details">
+                        <p>Ang <strong>Marikina City Police</strong> ay ang lokal na yunit ng Philippine National Police (PNP) sa ilalim ng Eastern Police District (EPD)
+                        na responsable sa pagpapanatali ng kapayapaan, kaayusan, at pagpapatupad ng batas sa Marikina City.</p>
+                    </div>
+                    <i class="fa-solid fa-building-shield"></i></i><h4>Marikina City Police</h4>
+                    <p>Smart ( <b>0998 - 598 - 7876</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('09985987876')">Copy</button>
+                    <a href="tel:09985987876">
+                        <input type="button" value="Call">
+                    </a>
+                    <p>Globe ( <b>0927 - 968 - 4133</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('09279684133')">Copy</button>
+                    <a href="tel:09279684133">
+                        <input type="button" value="Call">
+                    </a>
+                </div>
+
+                <!-- Marikina Rescue 161 -->
+                <div class="contact-card" id="mr161-section">
+                    <div class="card-header">
+                        <span>▼</span>
+                    </div>
+                    <div class="card-details">
+                        <p>Ang <strong>Marikina Rescue 161</strong> ay ang opisyal na disaster risk reduction and management office (DRMMO) at rescue unit ng 
+                        Marikina City</p>
+                    </div>
+                    <i class="fa-solid fa-truck-medical"></i><h4>Marikina Rescue 161</h4>
+                    <p>Globe ( <b>0917 - 584 - 2168</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('09175842168')">Copy</button>
+                    <a href="tel:09175842168">
+                        <input type="button" value="Call">
+                    </a>
+                </div>
+
+                <!-- PRC Marikina -->
+                <div class="contact-card" id="prc-section">
+                    <div class="card-header">
+                        <span>▼</span>
+                    </div>
+                    <div class="card-details">
+                        <p>Ang <strong>Philippine Red Cross Marikina (PRC Marikina)</strong> ay ang lokal na sangay ng Philippine Red Cross na nagbibigay ng
+                        mga serbisyong makatao, tulad ng blood donation, disaster response, first aid training, at iba pang health services sa Marikina City.</p>
+                    </div>
+                    <i class="fa-solid fa-house-medical"></i></i><h4>PRC Marikina</h4>
+                    <p>Smart ( <b>0945 - 485 -5314</b> )</p>
+                    <button class="btn-copy" onclick="copyNumber('09454855314')">Copy</button>
+                    <a href="tel:09454855314">
+                        <input type="button" value="Call">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- ARTICLE -->
+     <article>
+        <div class="disclaimer-container">
+            <h3 class="paalala">Munting Paalala</h3>
+            <p>
+                Ang TumanaGO ay binuo nang may dedikasyon upang maging isang mabilis at madaling gabay para sa bawat residente ng Barangay Tumana. 
+                Ang aming pangunahing layunin ay paglingkuran ang komunidad sa pamamagitan ng paglalapit ng mga impormasyon at serbisyo sa inyong mga kamay.
+                <br>
+                <br>
+                Gayunpaman, upang matiyak ang inyong kaligtasan at wastong transaksyon, nais naming ipaalala ang mga sumusunod: 
+                <br>
+                <br>
+                <strong>Katayuan ng Impormasyon:</strong> 
+                <br>Ang lahat ng impormasyon, lalo na ang mga emergency contact numbers, ay regular naming sinusuri at kinukuha mula sa mga opisyal na anunsyo ng
+                Pamahalaang Lungsod ng Marikina. Bagama't sinisikap naming maging 100% tumpak, ang mga numerong ito ay maaaring magbago nang walang paunang 
+                abiso mula sa mga kinauukulang ahensya.
+                <br>
+                <br>
+                <strong>Independent Initiative:</strong> 
+                <br>Ang platform na ito ay isang malayang proyektong pang-komunidad. Ito ay hindi direktang pinapatakbo ng Opisina ng Barangay Tumana. Ginawa ito 
+                upang magsilbing katuwang (supplementary tool) at hindi kapalit ng mga opisyal na anunsyo sa Barangay Hall.
+                <br>
+                <br>
+                <strong>Katayuan ng Impormasyon:</strong>
+                <br>Sa oras ng matinding panganib o sakuna, lubos naming itinatagubilin na direktang tumawag sa Marikina Rescue 161 o gamitin 
+                ang mga radyo at opisyal na sirena ng barangay. Ang TumanaGO ay isang kagamitan lamang para sa mabilis na pag-access at hindi kami ang direktang
+                tagatugon (responder) sa mga emergency.
+                <br>
+                <br>
+                <strong>Proteksyon ng User:</strong>
+                <br>Ang inyong pagtitiwala ay mahalaga sa amin. Hindi kami nangongolekta ng anumang sensitibong personal na impormasyon sa 
+                paggamit ninyo ng pahinang ito.
+                <br>
+                <br>
+                Naniniwala kami na ang isang impormadong residente ay isang ligtas na residente. Salamat sa inyong patuloy na paggamit sa TumanaGO bilang inyong
+                katuwang sa pag-navigate sa ating barangay.
+            </p>
+        </div>
+     </article>
+
+     <!-- FOOTER-->
+    <footer class="footer">
+        <img src="TumanaGO_logo.png" alt="TumanaGO Logo" class="Logo_footer">
+        <p>2024 TumanaGO - Gabay ng Tumanian.</p>
+        <p class="linkp">Links:</p>
+        <div class="links">
+            <a href="homepage.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="history.html">History</a>
+            <a href="map.html">Map</a>
+            <a href="emergency.html">Emergency</a>
+            <a href="document.html">Document</a>
+            <a href="https://www.facebook.com/profile.php?id=61555499006158">Brgy.Tumana Page</a>
+            <a href="https://www.facebook.com/MarikinaPIO">Marikina PIO</a>
+        </div>
+        <div class="disclaimer">
+            <p>Ang TumanaGO ay isang digital platform na nagbibigay ng gabay at impormasyon sa mga taga Tumana. 
+            <br>Hindi ito isang official government platform.</p>
+        </div>
+        <div class="update">
+            <p>&copy; 2026 | Last Updated: March 10,2026</p>
+        </div>
+    </footer>
+    <script src="emergency.js"></script>
+</body>
+</html> 
