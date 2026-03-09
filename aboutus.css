@@ -17,7 +17,6 @@ body{
   background: white;
   padding: 15px 20px;
   position: relative;
-  border-bottom: 2px solid black;
   box-shadow: 0 0 5px black;
 }
 #tumanaLogo {
@@ -209,4 +208,10 @@ h3{
   .disclaimer {
     font-size: 0.8rem;
   }
+}
+
+/* remove highlight */
+.navbar, .small_links, .footer{
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
 }
