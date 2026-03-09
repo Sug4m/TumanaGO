@@ -38,10 +38,10 @@ function performSearch() {
     const query = searchInput.value.toLowerCase().trim();
 
     //Emergency Sections
-    if (query === 'emergency' || query === 'Emergency' || query === 'hotlines') {
+    if (query === 'emergency' || query === 'emergency hotlines' || query === 'hotlines') {
         window.location.href = 'emergency.html#emergency-section'; 
     } 
-    else if (query === 'b.p.s.o' || query === 'bpso' || query === 'bps' || query === 'B.P.S.O') {
+    else if (query === 'b.p.s.o' || query === 'bpso' || query === 'bps') {
         window.location.href = 'emergency.html#bpso-section'; 
     } 
     else if (query === 'vawc') {
@@ -53,55 +53,58 @@ function performSearch() {
     else if (query === 'bacc') {
         window.location.href = 'emergency.html#bacc-section';
     }
-    else if (query === 'Marikina City Police' || query === 'marikina city police' || query === 'mcp') {
+    else if (query === 'marikina city police' || query === 'mcp') {
         window.location.href = 'emergency.html#mcp-section';
     }
-    else if (query === 'Marikina Rescue 161' || query === '161' || query === 'marikina rescue 161') {
+    else if (query === '161' || query === 'marikina rescue 161') {
         window.location.href = 'emergency.html#mr161-section';
     }
-    else if (query === 'Philippine Red Cross' || query === 'prc' || query === 'Red Cross Marikina' || query === 'PRC Marikina') {
+    else if (query === 'philippine red cross' || query === 'prc' || query === 'red cross marikina' || query === 'prc marikina') {
         window.location.href = 'emergency.html#prc-section';
     }
 
     //Map Section
-    else if (query === 'map' || query === 'Map'){
+    else if (query === 'map'){
       window.location.href = 'map.html#map-section'
     }
 
     //History Section
-    else if (query === 'history' || query === 'History'){
+    else if (query === 'history'){
       window.location.href = 'history.html#history-section'
     }
 
     //About-us Section
-    else if (query === 'About us' || query === 'about us'){
+    else if (query === 'about us'){
       window.location.href = 'aboutus.html#aboutus-section'
     }
 
     //Document Section
-    else if (query === 'Document' || query === 'document') {
+    else if (query === 'document') {
         window.location.href = 'document.html#main_content';
     }
-    else if (query === 'brgy clearance' || query === 'BRGY Clearance' || query === 'clearance') {
+    else if (query === 'brgy clearance' || query === 'clearance') {
         window.location.href = 'document.html#brgy_clearance';
     } 
-    else if (query === 'brgy id' || query === 'BRGY ID') {
+    else if (query === 'brgy id' || query === 'barangay id') {
         window.location.href = 'document.html#brgy_ID';
     } 
     else if (query === 'business clearance') {
         window.location.href = 'document.html#business_clearance';
     } 
-    else if (query === 'cedula' || query === 'community tax certificate' || query === 'Cedula') {
+    else if (query === 'cedula' || query === 'community tax certificate') {
         window.location.href = 'document.html#cedula';
     }
-    else if (query === 'Certificate of Indigency' || query === 'indigency' || query === 'Indigency') {
+    else if (query === 'indigency' || query === 'certificate of indigency') {
         window.location.href = 'document.html#indigency';
     } 
-    else if (query === 'certificate of residency' || query === 'Residency' || query === 'residency') {
+    else if (query === 'certificate of residency' || query === 'residency') {
         window.location.href = 'document.html#residency';
     }
     else if (query === 'seeker' || query === 'job seeker' || query === 'job') {
         window.location.href = 'document.html#job_seeker';
+    }
+    else {
+      alert("Hindi nahanap ang '" + query + "'. Subukan ang ibang keyword.")
     }
 }
 
@@ -130,4 +133,3 @@ toggleBtn.addEventListener("click", function() {
     this.textContent = "Read More";
   }
 });
-
