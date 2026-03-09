@@ -17,7 +17,6 @@ body{
   background: white;
   padding: 15px 20px;
   position: relative;
-  border-bottom: 2px solid black;
   box-shadow: 0 0 5px black;
 }
 #tumanaLogo {
@@ -122,10 +121,15 @@ h3{
 .search-box input {
   width: 100%;
   padding: 12px 40px;
-  border: 1px solid #ccc;
+  border: 2px solid rgba(0, 0, 0, 0.446);
   border-radius: 25px;
   outline: none;
   font-size: 16px;
+}
+.search-box input:focus{
+  border-color: #0271e1;
+  outline: none;
+  box-shadow: 0 0 8px #0271e194;
 }
 .search-icon {
   position: absolute;
@@ -385,4 +389,9 @@ a{
   .disclaimer {
     font-size: 0.8rem;
   }
+}
+
+body{
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
 }
