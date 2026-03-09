@@ -128,3 +128,8 @@ strong{
 a{
     text-decoration: none;
 }
+
+body{
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
